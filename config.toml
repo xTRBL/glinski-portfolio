@@ -1,3 +1,29 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jessica Glinski"
+theme = "glinski-bootstrap"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/#about"
+
+  [[menu.main]]
+    identifier = "shop"
+    name = "Shop"
+    url = "/#shop"
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/#portfolio"
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/#contact"
